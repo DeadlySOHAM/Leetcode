@@ -8,5 +8,6 @@ class Permutations2{
       System.out.println(s.permute(new int[]{0}));
       System.out.println(s.permute(new int[]{0,1}));
       System.out.println(s.permute(new int[]{1,2,3}));
+      System.out.println(s.permute(new int[]{1,1,3}));
    }
 }
