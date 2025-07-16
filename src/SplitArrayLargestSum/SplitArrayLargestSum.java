@@ -12,5 +12,6 @@ public class SplitArrayLargestSum {
       System.out.println(s.splitArray(new int[] { 10, 5, 20, 25, 17, 23, 2, 9, 4, 13 }, 7)); // 25
       System.out.println(s.splitArray(new int[] { 7, 2, 5, 10, 8 }, 2)); // 18
       System.out.println(s.splitArray(new int[] { 1, 2, 3, 4, 5 }, 2)); // 9
+      System.out.println(s.splitArray(new int[] { 1,4,4 }, 3)); // 4
    }
 }

@@ -3,7 +3,7 @@ package SplitArrayLargestSum;
 public class Solution {
 
    public int splitArray(int[] nums, int k) {
-      int lower = Integer.MAX_VALUE, upper = 0, max = Integer.MAX_VALUE;
+      int lower = Integer.MAX_VALUE, upper = 0, max = Integer.MIN_VALUE;
       for(int element : nums) {
          upper += element;
          lower = Math.min(element, lower);
