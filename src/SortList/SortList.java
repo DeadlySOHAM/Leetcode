@@ -5,8 +5,9 @@ package SortList;
 public class SortList {
    
    public static void main(String[] args) {
-      // Solution s = new Solution();
-      Solution2 s = new Solution2();
+      // Solution s = new Solution(); // with merge sort
+      // Solution2 s = new Solution2(); // with merge sort
+      Solution3 s = new Solution3(); // with quick sort
       print(s.sortList(asLinkedList(new int[]{5,4,3,2,1})));
       print(s.sortList(asLinkedList(new int[]{4,2,1,3})));
       print(s.sortList(asLinkedList(new int[]{-1,5,3,4,0})));
