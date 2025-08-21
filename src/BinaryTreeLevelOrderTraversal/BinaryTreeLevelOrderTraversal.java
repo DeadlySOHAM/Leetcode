@@ -6,7 +6,8 @@ import java.util.*;
 
 class BinaryTreeLevelOrderTraversal {
    public static void main(String[] args) {
-      Solution s = new Solution();
+      // Solution s = new Solution();
+      Solution2 s = new Solution2();
       print(s.levelOrder(arrayAsTree(new Integer[]{1,2,3})));
       print(s.levelOrder(arrayAsTree(new Integer[]{10,20,30,40,50})));
       print(s.levelOrder(arrayAsTree(new Integer[]{3,9,20,null,null,15,7})));

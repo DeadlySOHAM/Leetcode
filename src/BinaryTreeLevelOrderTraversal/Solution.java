@@ -2,6 +2,8 @@ package BinaryTreeLevelOrderTraversal;
 
 import java.util.*;
 
+// DFS Oriented
+
 class Solution {
 
    public List<List<Integer>> levelOrder(TreeNode root) {
