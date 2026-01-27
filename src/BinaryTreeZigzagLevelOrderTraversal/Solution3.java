@@ -27,7 +27,6 @@ public class Solution3 {
             root = curr;
          } while(!q.isEmpty() && root != last);
          result.add(res);
-         if(level){}else{}
          level=!level;
       }
       return result;
