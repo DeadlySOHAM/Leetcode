@@ -1,8 +1,5 @@
 package PopulatingNextRightPointersInEachNode;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class Solution2 {
    public Node connect(Node root) {
       if(root==null) return null;
